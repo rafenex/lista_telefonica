@@ -1,6 +1,6 @@
 $('#btnAdd').hide();
 $("#txtTel").keyup(function(){
-    if (($('#txtNome').val().length > 2) && ($('#txtTel').val().length > 10))    
+    if (($('#txtNome').val().length > 2) && ($('#txtTel').val().length > 9))    
      $('#btnAdd').show();
 });
 
